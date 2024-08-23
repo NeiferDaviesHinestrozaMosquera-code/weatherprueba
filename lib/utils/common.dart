@@ -14,6 +14,14 @@ showDownloading() {
   );
 }
 
+getAnimatedSnackbarSuccess(String text, BuildContext context) {
+  AnimatedSnackBar.material(
+    text,
+    type: AnimatedSnackBarType.success,
+    desktopSnackBarPosition: DesktopSnackBarPosition.topCenter,
+  ).show(context);
+}
+
 getAnimatedSnackbarError(String text, BuildContext context) {
   AnimatedSnackBar.material(
     text,

@@ -5,12 +5,10 @@ class CustomText extends StatelessWidget {
   final double fontSize;
   final Color color;
 
-
   CustomText( {
     required this.text,
     this.fontSize = 16,
     this.color = Colors.white, 
-
   });
 
   @override
